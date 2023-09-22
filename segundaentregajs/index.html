@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CANTINAONLINE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+  <h1 id="titulo">CANTINAONLINE </h1> 
+  <section>
+    <h2>¡Hola! ¿Qué querés comprar?</h2>
+    <ul>
+      <li onclick="comprar(Stellaartoislitro)">Stellalitro <span>$350 <img src="../segundaentregajs/Fotos/stellalitro.jpeg" alt="botella"></span></li>
+      <li onclick="comprar(stellaartoislata)">lata <span>$180 <img src="../segundaentregajs/Fotos/stellalata.jpg" alt="lata"></span></li>
+      <li onclick="comprar(fernet)">fernet <span>$200 <img src="../segundaentregajs/Fotos/fernet.jpeg" alt="fernet"></span></li>
+      <li onclick="comprar(gintonic)">gintonic <span>$180 <img src="../segundaentregajs/Fotos/gintonic.jpeg"  alt="gintonic"></span></li>
+      <li onclick="comprar(whisky)">whisky <span>$180 <img src="../segundaentregajs/Fotos/whisky.jpeg" alt="whisky"></span></li>
+      <li onclick="comprar(cigarros)">cigarros <span>$200 <img src="../segundaentregajs/Fotos/cigarros.jpeg" alt="cigarros"></span></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Mi compra</h2>
+    <ul id="inventario">
+      
+    </ul>
+    <h2 id="saldo">
+      saldo: <span>$5000</span>
+    </h2>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
